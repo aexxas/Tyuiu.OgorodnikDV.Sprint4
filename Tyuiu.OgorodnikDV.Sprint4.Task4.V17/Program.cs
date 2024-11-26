@@ -23,11 +23,13 @@ namespace Tyuiu.OgorodnikDV.Sprint4.Task4.V17
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
+
             Console.WriteLine("Введите количество столбцов:                                              *");
             int x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Введите количество строк:                                                 *");
             int y = Convert.ToInt32(Console.ReadLine());
+
 
             int[,] arr = new int[x, y];
             for (int i = 0; i < arr.GetLength(0); i++)
