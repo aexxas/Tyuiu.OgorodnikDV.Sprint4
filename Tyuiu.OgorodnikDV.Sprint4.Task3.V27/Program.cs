@@ -7,7 +7,6 @@ namespace Tyuiu.OgorodnikDV.Sprint4.Task3.V27
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Random rnd = new Random();
             Console.Title = "Спринт #4 | Выполнила: Огородник Д.В. | ИСПб-24-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #4                                                               *");
